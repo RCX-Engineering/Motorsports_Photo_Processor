@@ -1,4 +1,4 @@
-# Motorsports Photo Selection and Prodessing Tool
+# Automated Open-Source Motorsports Photo Selection and Processing Tool
 
 A Python pipeline that culls a folder of motorsport panning photos, groups the
 frames by driver, picks each driver's best shots, and exports tilted,
@@ -14,12 +14,13 @@ through it if you neeed help. Then point it to this git.
 
 `motorsport_cull.py` was tuned for one photographer's camera, shooting style,
 tracks, and hardware. **It is not meant to be run as-is.** Give it to an AI
-coding tool (Claude Code, Cursor, Copilot, etc.) and have the tool adapt it to
-your setup. For example:
+coding tool in VS Code or your favorite tool (Claude Code, Cursor, Copilot, etc.) 
+and have the tool adapt it to your setup. For example:
 
-> Here's a motorsport photo culling script. Read it, set it up on my machine,
-> and adapt it to my photos in `<your shoot folder>`. I shoot [autocross /
-> track days / rally / karting] with a [camera], and I like [tighter crops /
+> I want you to process my motorsports photos. Use the RCX Engineering Motorsports
+> Photo Processor at https://github.com/RCX-Engineering/Motorsports_Photo_Processor/
+> and adapt it for me. Set it up on my machine and adapt it to my photos in `<your shoot folder>`.
+> I shoot [autocross / > track days / rally / karting] with a [camera], and I like [tighter crops /
 > no tilt / ...].
 
 The docstring at the top of the script describes the whole pipeline, and the
